@@ -94,6 +94,8 @@ RUN wget https://github.com/trishume/OpenTuringCompiler/blob/master/stdlib-sfml/
 
 RUN wget https://github.com/googlefonts/tinos/blob/main/fonts/ttf/hinted/variable_ttf/Tinos-VF.ttf?raw=true --content-disposition -P /usr/share/fonts/
 
+RUN wget https://github.com/googlefonts/opensans/blob/main/fonts/ttf/OpenSans-Regular.ttf?raw=true --content-disposition -P /usr/share/fonts/
+
 # Install python libraries
 RUN pip3 install \
  requests \
