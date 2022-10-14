@@ -90,6 +90,8 @@ RUN wget https://github.com/googlefonts/roboto/blob/main/src/hinted/Roboto-Regul
 # For some reason this one is missing in the default packages
 RUN wget https://github.com/stamen/terrain-classic/blob/master/fonts/unifont-Medium.ttf?raw=true --content-disposition -P /usr/share/fonts/
 
+RUN wget https://github.com/trishume/OpenTuringCompiler/blob/master/stdlib-sfml/fonts/Times%20New%20Roman.ttf?raw=true --content-disposition -P /usr/share/fonts/
+
 # Install python libraries
 RUN pip3 install \
  requests \
