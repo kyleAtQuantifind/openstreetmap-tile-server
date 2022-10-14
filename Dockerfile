@@ -92,6 +92,8 @@ RUN wget https://github.com/stamen/terrain-classic/blob/master/fonts/unifont-Med
 
 RUN wget https://github.com/trishume/OpenTuringCompiler/blob/master/stdlib-sfml/fonts/Times%20New%20Roman.ttf?raw=true --content-disposition -P /usr/share/fonts/
 
+RUN wget https://github.com/googlefonts/tinos/blob/main/fonts/ttf/hinted/variable_ttf/Tinos-VF.ttf?raw=true --content-disposition -P /usr/share/fonts/
+
 # Install python libraries
 RUN pip3 install \
  requests \
